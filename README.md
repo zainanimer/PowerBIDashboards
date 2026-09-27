@@ -17,8 +17,8 @@ A collection of Power BI dashboards built from public datasets, covering data cl
 Two workflows were used depending on the dataset:
 
 **Cleaned with Python (Jupyter Notebook) before loading into Power BI:**
-- **Titanic** — handled missing values in `Age`, `Cabin`, and `Embarked`, checked for duplicates, fixed data types, and ran exploratory analysis (distribution, survival by gender/class) before building the dashboard. Notebook: [`notebooks/Titanic_Dataset.ipynb`](notebooks/Titanic_Dataset.ipynb)
-- **Deaths & Causes** — renamed and standardized columns, dropped irrelevant fields, filled missing values with the median, fixed data types, consolidated inconsistent region/country labels, and checked for whitespace and outliers. Notebook: [`notebooks/death_dataset.ipynb`](notebooks/death_dataset.ipynb)
+- **Titanic** — handled missing values in `Age`, `Cabin`, and `Embarked`, checked for duplicates, fixed data types, and ran exploratory analysis (distribution, survival by gender/class) before building the dashboard.
+- **Deaths & Causes** — renamed and standardized columns, dropped irrelevant fields, filled missing values with the median, fixed data types, consolidated inconsistent region/country labels, and checked for whitespace and outliers.
 
 **Reviewed and shaped directly in Power Query:**
 - World Cup, Spotify, and Cybersecurity Threats dashboards were reviewed and transformed using Power BI's built-in Power Query editor (no external Python cleaning step).
